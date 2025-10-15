@@ -1,8 +1,8 @@
 name: update_xray_json_config_for_dig
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0/2 * * *'
+  #schedule:
+    #- cron: '0 0/2 * * *'
 jobs:  # 24479
   build:
     runs-on: ubuntu-latest
